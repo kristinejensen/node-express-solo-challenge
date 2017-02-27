@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-
-    <title>Node Express Joke Book</title>
-    <script src="vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="scripts/client.js" type="text/javascript"></script>
-
-  </head>
-  <body>
-    <h1>Node Express Joke Book</h1>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <script src="vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="scripts/client.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Node Express Joke Book</title>
+</head>
+<body>
+  <h1>Node Express Joke Book</h1>
+  <div id="jokeDisplay"></div>
+  <div id="submittedJoke"></div>
+  <h3>Submit Your Joke Here</h3>
+  <label for="jokeAuthor">Joke Author: </label>
+  <input type="text" name="jokeAuthor" id="jokeAuthor">
+  <label for="jokeQuestion">Joke Question: </label>
+  <input type="text" name="jokeQuestion" id="jokeQuestion">
+  <label for="punchLine">Punchline: </label>
+  <input type="text" name="punchLine" id="punchline">
+  <button type="button" id="submitButton">Submit</button>
+  <button type="button" id="clearButton">Clear Form</button>
+</body>
 </html>

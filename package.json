@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kdszafranski/node-express-solo-challenge#readme",
   "dependencies": {
+    "body-parser": "^1.16.1",
     "express": "^4.14.1"
   }
 }
